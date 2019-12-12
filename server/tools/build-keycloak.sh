@@ -97,3 +97,5 @@ chmod -R g+rw /opt/jboss
 
 rm -rf /opt/jboss/keycloak/standalone/tmp/auth
 rm -rf /opt/jboss/keycloak/domain/tmp/auth
+
+/opt/jboss/keycloak/bin/add-user.sh -u admin -p admin
